@@ -80,6 +80,7 @@ body {
 
 .breadcrumb,
 #ja-content {
+    -webkit-text-size-adjust: none;
     padding: 0px;
 }
 
@@ -106,7 +107,7 @@ p {
 
     color: transparent;
     padding: 4px;
-    margin-top: -25px;
+    margin-top: -10px;
     position: relative;
     overflow: hidden;
 
