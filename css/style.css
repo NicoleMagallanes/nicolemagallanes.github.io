@@ -1,5 +1,6 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
 }
 
 .logo {
@@ -9,6 +10,13 @@ svg {
     width: 100%;
     /* Set the initial width to 100% */
 }
+
+@media only screen and (max-width: 500px) {
+    /* adjust ja-contentwrap width for smaller screens */
+    #ja-contentwrap {
+      width: 100%;
+    }
+  }
 
 
 .text {
@@ -72,7 +80,7 @@ body {
 
 .breadcrumb,
 #ja-content {
-    padding: 50px;
+    padding: 0px;
 }
 
 /* other */
