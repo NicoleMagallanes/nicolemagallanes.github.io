@@ -6,17 +6,24 @@
 .logo {
     margin-top: -18px;
 }
+
+.social a{
+    color: rgb(31, 29, 29);
+    font-size: 25px;
+}
+
 svg {
     width: 100%;
     /* Set the initial width to 100% */
 }
 
 @media only screen and (max-width: 500px) {
+
     /* adjust ja-contentwrap width for smaller screens */
     #ja-contentwrap {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
 
 
 .text {
