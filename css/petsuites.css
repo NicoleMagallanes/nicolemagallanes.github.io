@@ -19,7 +19,6 @@
     }
 }
 
-
 .text {
     padding: 30px;
     margin-top: -70px;
@@ -554,7 +553,7 @@ table.vip_rewards {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 30px;
 }
 
 .column {
@@ -571,7 +570,9 @@ table.vip_rewards {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s linear;
-    
+    object-fit: cover;
+    height: 300px; 
+
 }
 
 .column img:hover {
@@ -589,6 +590,25 @@ table.vip_rewards {
     }
 }
 
+/* Table styles for screens smaller than 768px (tablets) */
+@media (max-width: 768px) {
+
+    .vip_reward td,
+    .vip_reward th {
+        padding: .5rem;
+        font-size: 0.8rem;
+    }
+}
+
+/* Table styles for screens smaller than 576px (mobile devices) */
+@media (max-width: 576px) {
+
+    .vip_reward td,
+    .vip_reward th {
+        padding: .25rem;
+        font-size: 0.6rem;
+    }
+}
 
 
 

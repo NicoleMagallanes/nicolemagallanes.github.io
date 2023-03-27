@@ -550,7 +550,61 @@ table.vip_rewards {
 
 /* About Us */
 
-
+.about-us{
+    width: 100%;
+    padding: 20px;
+  }
+  .pic{
+    height: auto;
+    width:  302px;
+  }
+  .about{
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .text{
+    width: 540px;
+  }
+  .text h2{
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  
+  }
+  .text h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  span{
+    color: #c25b07;
+  }
+  .text p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  .data{
+    margin-top: 30px;
+  }
+  .book{
+    font-size: 18px;
+    background: #ad4d0c;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  .book:hover{
+    background: #000;
+    border: 1px solid #f4ac40;
+  }
 
 
 /* Footer */

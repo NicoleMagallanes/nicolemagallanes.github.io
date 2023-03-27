@@ -109,70 +109,61 @@
                         <li class="item-195"><a href="onlineform.html">Our Forms</a></li>
                     </ul>
                 </li>
-                <li class="item-151 active deeper parent"><a href="daycare.html">Day Care </a>
+                <li class="item-151 deeper parent"><a href="daycare.html">Day Care </a>
                     <ul>
-                        <li class="item-152 current active"><a href="#">Overview</a></li>
+                        <li class="item-152 current "><a href="#">Overview</a></li>
                         <li class="item-153"><a href="#" target="_blank">Doggy Day Care Book Online</a></li>
                     </ul>
                 </li>
-                <li class="item-161"><a href="contactus.html">Contact Us</a></li>
+                <li class="item-161 active"><a href="contactus.html">Contact Us</a></li>
 
             </ul>
 
         </div>
     </div>
-    <div id="ja-contentwrap">
-        <div id="ja-content">
-            <section class="footer_get_touch_outer">
-                <div class="container">
-                    <div class="footer_get_touch_inner grid-70-30">
-                        <div class="colmun-70 get_form">
-                            <div class="get_form_inner">
-                                <div class="get_form_inner_text">
-                                    <h3>Get In Touch</h3>
-                                </div>
-                                <form action="#">
-                                    <div class="grid-50-50">
-                                        <input type="text" placeholder="First Name">
-                                        <input type="text" placeholder="Last Name">
-                                        <input type="email" placeholder="Email">
-                                        <input type="tel" placeholder="Phone/Skype">
-                                    </div>
-                                    <div class="grid-full">
-                                        <textarea placeholder="About Your Project" cols="30" rows="10"></textarea>
-                                        <input type="submit" value="Submit">
-                                    </div>
-                                </form>
-                            </div>
+    <h2>Contact Form</h2>
+    <div class="container">
+        <form action="/form/submit" method="POST">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="name" placeholder="Type your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="surname" placeholder="Type your last name..">
+            <label for="lname">E-mail Address</label>
+            <input type="text" id="mail" name="e-mail" placeholder="Type your e-mail..">
+            <label for="ci">Location</label>
+            <select id="country" name="country">
+                <option value="select">Select Drowdown: </option>
+                <option value="north">North: C-5 Extension / Libjo Bridge</option>
+                <option value="south">South: Saint Jude Multinational Creek</option>
+                <option value="east">East: Chateau Elysee</option>
+                <option value="west">West: Riverside Multinational
+                </option>
+            </select>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Type your message.." style="height:200px"></textarea>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Submitted</h4>
                         </div>
-                        <div class="colmun-30 get_say_form">
-                            <h5>Say Hi!</h5>
-                            <ul class="get_say_info_sec">
-                                <li>
-                                    <i class="fa fa-envelope"></i>
-                                    <a href="mailto:">@mail.com</a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-whatsapp"></i>
-                                    <a href="tel:">123-456-789</a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-skype"></i>
-                                    <a href="#">NixBoarding</a>
-                                </li>
-                            </ul>
-                            <ul class="get_say_social-icn">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
+                        <div class="modal-body">
+                            <p>I will get back to you once we are online. Thank you! </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </form>
     </div>
+
     <footer class="footer-section">
         <div class="container">
             <div class="footer-cta pt-5 pb-5">
