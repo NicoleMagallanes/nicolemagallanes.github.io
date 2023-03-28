@@ -2,17 +2,127 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Sample</title>
+    <title>Nix Pet Boarding Online Form</title>
+    <link rel="icon" type="image/x-icon" src="https://i.ibb.co/djPnbw6/Nix-Pet-Boarding-5.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/onlinebooking.css">
     <link rel="stylesheet" href="/templates/petshotel/css/font-awesome.css" type="text/css" media="screen">
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
 <body data-new-gr-c-s-check-loaded="14.1101.0" data-gr-ext-installed="">
+    <div class="wave-animation">
+        <div class="wave">
+        </div>
+    </div>
+    <div class="wrapp">
+        <div class="logo">
+            <img src="assets/istockphoto-1152482732-170667a.jpg" style="width:100%">
+            <h1 class="block-effect" style="--td: 1.2s">
+                <div class="block-reveal" style="--bc: #be6512; --d: .1s">Nix</div>
+                <div class="block-reveal" style="--bc: #b94213; --d: .5s">Pet Boarding</div>
+            </h1>
+
+        </div>
+    </div>
+
+    <div class="td-menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="logo">
+                    <img src="assets/istockphoto-1152482732-170667a.jpg" style="width:100%">
+                    <h1 class="block-effect" style="--td: 1.2s">
+                        <div class="block-reveal" style="--bc: #be6512; --d: .1s">Nix</div>
+                        <div class="block-reveal" style="--bc: #b94213; --d: .5s">Pet Boarding</div>
+                    </h1>
+
+                </div>
+                <ul class="navbar-nav">
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#dropdown-menu" id="navbarDropdownMenuLink"
+                            role="button" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-bars"
+                                aria-hidden="true"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="aboutus.html">About us</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="petsuites.html">Pet Suites</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="petservices.html">Pet Services</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="onlineform.html">Book Online</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="daycare.html">Day Care</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="contactus.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="wrapp">
+            <ul class="menu">
+                <li class="item-101 active"><a href="index.html">Home</a></li>
+                <li class="item-107 deeper parent"><a href="aboutus.html">About us</a>
+                    <ul>
+                        <li class="item-197"><a href="aboutus.html">Why Choose Us</a></li>
+                        <li class="item-136"><a href="aboutus.html">About The Facility</a></li>
+                        <li class="item-137"><a href="aboutus.html">Hotel Staff / Careers</a></li>
+                        <li class="item-186"><a href="aboutus.html">Testimonials</a></li>
+                    </ul>
+                </li>
+                <li class="item-108 deeper parent"><a href="petsuites.html">Pet Suites</a>
+                    <ul>
+                        <li class="item-141"><a href="">Dog Suites</a></li>
+                        <li class="item-142"><a href="#">Cat Suites</a></li>
+                        <li class="item-144"><a href="#">Rates</a></li>
+                    </ul>
+                </li>
+                <li class="item-145 deeper parent"><a href="petservices.html">Pet Services</a>
+                    <ul>
+                        <li class="item-146"><a href="#">Activities</a></li>
+                        <li class="item-149"><a href="#">Pet Spa</a></li>
+                        <li class="item-148"><a href="#">Special Needs Menu</a></li>
+                    </ul>
+                </li>
+                <li class="item-165 deeper parent"><a href="onlineform.html">Book Online</a>
+                    <ul>
+                        <li class="item-195"><a href="onlineform.html">Our Forms</a></li>
+                    </ul>
+                </li>
+                <li class="item-151 deeper parent"><a href="daycare.html">Day Care </a>
+                    <ul>
+                        <li class="item-152 current "><a href="#">Overview</a></li>
+                        <li class="item-153"><a href="#" target="_blank">Doggy Day Care Book Online</a></li>
+                    </ul>
+                </li>
+                <li class="item-161"><a href="contactus.html">Contact Us</a></li>
+
+            </ul>
+
+        </div>
+    </div>
     <div id="booking" class="section">
         <div class="section-center">
             <div class="container">
@@ -87,7 +197,8 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <a class="submit-btn" href="paymentform.html" style="text-align: center;">Book Now</a>
+                                    <a class="submit-btn" href="paymentform.html" style="text-align: center;">Book
+                                        Now</a>
                                 </div>
                             </form>
                         </div>
@@ -96,6 +207,120 @@
             </div>
         </div>
     </div>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>Moonwalk Paranaque</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>123-456-789</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>mail@info.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="assets/Nix Pet Boarding (1).png" class="img-fluid"
+                                        alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor
+                                    incididuntut consec tetur adipisicing
+                                    elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="aboutus.html">About Us</a></li>
+                                <li><a href="petsuites.html">Pet Suites</a></li>
+                                <li><a href="petservices.html">Pet Service</a></li>
+                                <li><a href="onlineform.html">Book Online</a></li>
+                                <li><a href="daycare.html">Day Care</a></li>
+                                <li><a href="contactus.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2023, All Right Reserved </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="aboutus.html">About Us</a></li>
+                                <li><a href="petsuites.html">Pet Suites</a></li>
+                                <li><a href="petservices.html">Pet Service</a></li>
+                                <li><a href="onlineform.html">Book Online</a></li>
+                                <li><a href="daycare.html">Day Care</a></li>
+                                <li><a href="contactus.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

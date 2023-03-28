@@ -551,11 +551,12 @@ div#slider figure {
         display: none !important;
     }
 }
-
-table.vip_rewards {
-    padding: 10px;
-}
-
+.vip_reward {
+    overflow-x: auto;
+    display: block;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
 /* Dog */
 
 body {
