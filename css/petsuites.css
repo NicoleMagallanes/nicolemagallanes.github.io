@@ -61,6 +61,18 @@
     }
 }
 
+.site-heading h2 {
+    margin-top: 50px;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.site-heading h2 span {
+    color: #a05b00;
+}
+
 /* reset */
 *,
 *::before,

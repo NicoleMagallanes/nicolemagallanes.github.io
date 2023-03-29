@@ -551,12 +551,15 @@ div#slider figure {
         display: none !important;
     }
 }
-.vip_reward {
+
+.vip_reward table {
     overflow-x: auto;
     display: block;
-    width: 100%;
+    width: 80px;
     -webkit-overflow-scrolling: touch;
-  }
+
+}
+
 /* Dog */
 
 body {
@@ -1115,4 +1118,15 @@ ul {
 .footer-menu li a {
     font-size: 14px;
     color: #878787;
+}
+
+.site-heading h2 {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.site-heading h2 span {
+    color: #a05b00;
 }
