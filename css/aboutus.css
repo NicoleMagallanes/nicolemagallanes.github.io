@@ -5,17 +5,19 @@
 .logo {
     margin-top: -18px;
 }
-.social a{
+
+.social a {
     color: rgb(31, 29, 29);
     font-size: 25px;
 }
 
 @media only screen and (max-width: 500px) {
+
     /* adjust ja-contentwrap width for smaller screens */
     #ja-contentwrap {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
 
 
 .text {
@@ -550,48 +552,57 @@ table.vip_rewards {
 
 /* About Us */
 
-.about-us{
+.about-us {
     width: 100%;
     padding: 20px;
-  }
-  .pic{
+}
+
+.pic {
     height: auto;
-    width:  302px;
-  }
-  .about{
+    width: 302px;
+}
+
+.about {
     width: 1130px;
     max-width: 85%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
-  .text{
+}
+
+.text {
     width: 540px;
-  }
-  .text h2{
-    font-size: 90px;
+}
+
+.text h2 {
+    font-size: 70px;
     font-weight: 600;
     margin-bottom: 10px;
-  
-  }
-  .text h5{
+
+}
+
+.text h5 {
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 20px;
-  }
-  span{
+}
+
+span {
     color: #c25b07;
-  }
-  .text p{
+}
+
+.text p {
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 1px;
-  }
-  .data{
+}
+
+.data {
     margin-top: 30px;
-  }
-  .book{
+}
+
+.book {
     font-size: 18px;
     background: #ad4d0c;
     color: #fff;
@@ -600,12 +611,40 @@ table.vip_rewards {
     padding: 8px 25px;
     border-radius: 6px;
     transition: 0.5s;
-  }
-  .book:hover{
+}
+
+.book:hover {
     background: #000;
     border: 1px solid #f4ac40;
-  }
+}
 
+/* Mobile */
+@media (max-width: 767px) {
+    #ja-contentwrap {
+        padding: 0;
+    }
+
+    .about-us {
+        padding: 20px;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .text {
+        margin: 0;
+    }
+}
 
 /* Footer */
 ul {

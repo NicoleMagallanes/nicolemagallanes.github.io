@@ -339,10 +339,6 @@ div#slider figure {
     border-bottom: 1px solid #dbdbdb;
 }
 
-.container-fluid {
-    align-items: start;
-}
-
 .td-menu .wrapp {
     position: relative;
 }
@@ -571,7 +567,7 @@ table.vip_rewards {
     cursor: pointer;
     transition: 0.3s linear;
     object-fit: cover;
-    height: 300px; 
+    height: 300px;
 
 }
 
@@ -610,7 +606,99 @@ table.vip_rewards {
     }
 }
 
+/* Card */
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 460px;
+    max-width: 500px;
+    height: 550px;
+    margin: auto;
+    text-align: start;
+    font-family: arial;
+
+}
+
+.card img {
+    padding: 40px;
+    width: 100px;
+    height: 300px;
+    filter: drop-shadow(9);
+
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #833b11;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    background-color: #d34f11;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card-container {
+    overflow-y: auto;
+    /* add vertical scroll */
+    max-height: 630px;
+    /* set maximum height */
+}
+
+@media screen and (min-width: 768px) {
+
+    /* for tablet screens */
+    .card-container {
+        max-height: none;
+        /* remove maximum height */
+        overflow-y: visible;
+        /* remove vertical scroll */
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    /* for desktop screens */
+    .card-container {
+        max-height: none;
+        /* remove maximum height */
+        overflow-y: visible;
+        /* remove vertical scroll */
+    }
+}
+
+/* Booking button */
+.booking-btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #723605;
+    border-radius: 6px;
+    outline: none;
+}
+
+.booking-btn a:hover {
+    color: #f5c3aa;
+}
 
 /* Footer */
 ul {
@@ -736,7 +824,6 @@ ul {
 
 .footer-widget ul li {
     display: inline-block;
-    float: left;
     width: 50%;
     margin-bottom: 12px;
 }
