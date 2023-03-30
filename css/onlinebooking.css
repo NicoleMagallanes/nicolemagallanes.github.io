@@ -572,7 +572,9 @@ table.vip_rewards {
 }
 
 /* Online Form*/
-
+#text-suite #text-pets {
+    top:70px; 
+}
 /* Footer */
 ul {
     margin: 0px;
