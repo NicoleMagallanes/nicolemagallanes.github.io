@@ -622,9 +622,9 @@ table.vip_rewards {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 460px;
+    width: 400px;
     max-width: 500px;
-    height: 580px;
+    height: 590px;
     margin: auto;
     text-align: start;
     font-family: arial;
@@ -632,10 +632,10 @@ table.vip_rewards {
 }
 
 .card img {
-    padding: 40px;
-    width: 100px;
+    padding: 1px;
+    width: 120px;
     height: 300px;
-    filter: drop-shadow(9);
+    filter: saturate(2);
 
 }
 

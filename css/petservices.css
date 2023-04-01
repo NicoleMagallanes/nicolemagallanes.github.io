@@ -592,6 +592,11 @@ section {
     min-height: 100vh;
 }
 
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
 a,
 a:hover,
 a:focus,
@@ -965,14 +970,9 @@ ul {
     color: #444;
 }
 
-.food-description p {
-    font-size: 1.4rem;
-    color: #555;
-    font-weight: 500;
-}
 
 .food-description .food-price {
-    color: #117964;
+    color: #793211;
     font-weight: 700;
 }
 
