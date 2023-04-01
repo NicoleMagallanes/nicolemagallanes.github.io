@@ -556,6 +556,17 @@ table.vip_rewards {
 }
 
 /* Contact Us */
+.site-heading h2 {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.site-heading h2 span {
+    color: #a05b00;
+}
+
 /* Popup */
 .popup {
     display: none;
@@ -581,8 +592,9 @@ table.vip_rewards {
 .btn-info {
     color: #fff !important;
     background-color: rgb(121, 66, 41) !important;
-    border-color:  rgb(121, 66, 41) !important;
+    border-color: rgb(121, 66, 41) !important;
 }
+
 .h2 {
     font-family: 'Times New Roman', Times, serif;
 }
