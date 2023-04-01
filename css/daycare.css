@@ -582,7 +582,7 @@ table.vip_rewards {
     cursor: pointer;
     transition: 0.3s linear;
 }
-s
+
 .column img:hover {
     filter: grayscale(0);
 }
